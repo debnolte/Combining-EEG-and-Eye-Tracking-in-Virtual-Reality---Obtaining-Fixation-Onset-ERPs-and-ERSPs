@@ -7,14 +7,14 @@ The scripts provided here include the classification algorithm itself, analysis 
 ## File overview
 ### 7v_ET_classification_algorithm.ipynb
 This is the implementation of the eye-tracking algorithm. It classifies continuous eye-tracking data into gazes and saccades. The script concludes with the code used to generate trigger files for EEG. It can be run in chronological order. Depending on the input parameters, the beginning might require some adjustments. <br />
-Input: 
+#### Input: 
 - information on the validity of each sample
 - 3d vector indicating the eye position
 - the position of the objects hit by the ray cast of the eyes
 - the name of the objects hit by the ray cast of the eyes
-- additional parameters, such as head direction vectors, can be included 
-<br />
-Output:
+- additional parameters, such as head direction vectors, can be included
+
+#### Output:
 * a label for each sample indicating if it is valid or not; if it belongs to a gaze or saccade; if it is an outlier
 * the average duration of each event and distance towards the viewed objects
 * EEG trigger files without (and with) a time shift
