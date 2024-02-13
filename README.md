@@ -13,11 +13,10 @@ Input:
 - the position of the objects hit by the ray cast of the eyes
 - the name of the objects hit by the ray cast of the eyes
 - additional parameters, such as head direction vectors, can be included <br />
-<br />
 Output:
-- a label for each sample indicating if it is valid or not; if it belongs to a gaze or saccade; if it is an outlier
-- the average duration of each event and distance towards the viewed objects
-- EEG trigger files without (and with) a time shift
+* a label for each sample indicating if it is valid or not; if it belongs to a gaze or saccade; if it is an outlier
+* the average duration of each event and distance towards the viewed objects
+* EEG trigger files without (and with) a time shift
 
 ### 11v_figures.ipynb
 This is the script used to plot all figures and to run all statistical tests presented in the corresponding publication. It requires the output of the eye-tracking algorithm and, in some cases, the output of the EEG analysis done in MatLab.
