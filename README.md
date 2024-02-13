@@ -12,7 +12,8 @@ Input:
 - 3d vector indicating the eye position
 - the position of the objects hit by the ray cast of the eyes
 - the name of the objects hit by the ray cast of the eyes
-- additional parameters, such as head direction vectors, can be included <br />
+- additional parameters, such as head direction vectors, can be included 
+<br />
 Output:
 * a label for each sample indicating if it is valid or not; if it belongs to a gaze or saccade; if it is an outlier
 * the average duration of each event and distance towards the viewed objects
