@@ -1,0 +1,10 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Nolte"
+  given-names: "Debora"
+- family-names: "Vidal De Palol"
+  given-names: "Marc"
+title: "Combining-EEG-and-Eye-Tracking-in-Virtual-Reality"
+date-released: 2024-05-27 
+url: "https://github.com/debnolte/Combining-EEG-and-Eye-Tracking-in-Virtual-Reality---Obtaining-Fixation-Onset-ERPs-and-ERSPs"
